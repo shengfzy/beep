@@ -18,10 +18,10 @@ int main(int argc, char * argv[])
     {
         led_switch(LED0, ON);
         beep_switch(ON);
-        delay(500);
+        delay(1000);
         led_switch(LED0, OFF);
         beep_switch(OFF);
-        delay(500);
+        delay(1000);
     }
     return 0;
 }
